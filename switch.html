@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <p id="Result"></p>
+  <script>
+    var day = 8
+        var dayname ="";
+        switch(day){
+            case 1:
+              dayname ="monday";
+              break;
+            case 2:
+              dayname = "Tuesday";
+              break;
+            case 3:
+              dayname = "Wednsday";
+              break;
+            case 4:
+              dayname = "Thursday";
+              break;
+            case 5:
+              dayname ="Friday";
+              break;
+            case 6:
+              dayname ="Saturday";
+              break;
+            case 7:
+              dayname ="Sunday"
+              break;
+            default :
+              dayname ="Invalid day"
+
+            
+        }
+        document.getElementById("Result").innerHTML= "Day is " + dayname;
+
+  </script>
+</body>
+</html>
+   
+        

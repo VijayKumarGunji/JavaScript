@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Age Cracking</h1>
+    <p id="result"></p>
+    <script>
+        var Age = 18;
+        var message = "";
+
+        if (Age < 18) {
+            message = "Minor";
+        } else if (Age === 18) {
+            message = "Just turned Adult";
+        } else {
+            message = "Adult";
+        }
+
+        document.getElementById("result").innerHTML = message;
+    </script>
+</body>
+</html>

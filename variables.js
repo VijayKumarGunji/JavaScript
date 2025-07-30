@@ -20,3 +20,4 @@ let value =30;
      value=20;
 const d =10;
     d =60;
+    console.log(d);

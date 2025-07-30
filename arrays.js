@@ -108,3 +108,6 @@ console.log(str);
 var arrayreverse =[2,3,4];
     arrayreverse.reverse();
     console.log(arrayreverse);
+    console.log(arrayreverse);
+    console.log(arrayreverse);
+    

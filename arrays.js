@@ -110,4 +110,17 @@ var arrayreverse =[2,3,4];
     console.log(arrayreverse);
     console.log(arrayreverse);
     console.log(arrayreverse);
-    
+
+//toString()
+//The toString() method converts an array (or object) into a string.
+var arraytostring =[7,8,9,6];
+var newstr =arraytostring.toString();
+console.log(newstr);
+//length  
+//The length property returns the number of elements in an array or the number of characters in a string.
+var cities =["hyderabad","bangalore","chennai","mumbai"];
+console.log(cities.length);
+//isarray
+//Determines whether the passed value is an Array.
+const arris =[1,2,3];
+console.log(Array.isArray(arris));

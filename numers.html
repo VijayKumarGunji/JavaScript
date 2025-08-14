@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=hZ, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   </h1>To check even or odd</h1> 
+   <button onclick="check()">check number</button>
+   <button onclick="pallin()">pallindrom</button>
+   <p id="Result"></p>
+</body>
+  <script>
+     function check(){
+        let num=prompt("Enter any value");
+        num=Number(num);
+     if(isNaN(num)){
+        document.getElementById("Result").innerText="Enter valid number";
+     }
+      else if(num % 2 ===0){
+        document.getElementById("Result").innerText=num+"Even number";
+      }
+      else{
+        document.getElementById("Result").innerText=num+"Odd number";}
+     }
+     function pallin(){
+        let num1 =prompt("Enter any value");
+        let revers = num1.split("").reverse().join();
+        if(num1 === revers){  
+            alert(num1+"number is pallindrom");
+            
+        }
+        else{
+                alert(num1+"number is not pallindrom");
+            }
+     }
+    
+  </script>
+</html>

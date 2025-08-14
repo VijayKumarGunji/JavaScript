@@ -1,0 +1,15 @@
+var str ="vijay kumar";
+console.log(str);
+console.log(str.length);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str.trim());
+console.log(str.includes("kumar"));
+console.log(str.split(" "));
+console.log(str.split(" ").reverse());
+console.log(str.split(" ").join());
+console.log(str.split(" ").join());
+console.log(str.indexOf("a"));
+console.log(str.lastIndexOf("a"));
+console.log(str.replace("vijay","Hello"));
+console.log(str.replaceAll("vijay","Hello"));

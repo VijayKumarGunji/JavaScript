@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="accesingelement">Hello</h1>
+    <script>
+        const access =document.getElementById("accesingelement");
+        access.textContent ="Hello World";
+        access.innerHTML ="<span> new Heading</span>";
+        access.style.color ="yellow";
+        access.style.fontSize ="24px";
+        const addingdiv = document.createElement("div");
+        addingdiv.textContent="I am from nellore";
+        document.body.appendChild(addingdiv);
+        const container =document.getElementById("container");
+        container.insertBefore(addingdiv,container.firstChild);
+        addingdiv.remove();
+    </script>
+</body>
+</html>

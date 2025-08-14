@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+<body>
+    <div id="hover" class="Hello">
+      <h1> Hello World!</h1>
+      <button id="btn">Click me</button>
+    </div>
+    <script>
+        const output =document.getElementById("hover");
+        function changecolor(){
+            output.style.backgroundColor = "blue";
+          
+        }
+        function restorecolor(){
+            output.style.backgroundColor = "white";
+        }
+        output.addEventListener("mouseenter",changecolor);
+        output.addEventListener("mouseleave",restorecolor);
+        const btn =document.getElementById("btn");
+        btn.onclick = function(){
+            alert("button clicked");
+        }
+    </script>
+    <script src="romantonum.js"></script>
+</body>
+</html>
